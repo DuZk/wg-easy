@@ -56,8 +56,8 @@ services:
       # - WG_DEFAULT_DNS=1.1.1.1
       # - WG_MTU=1420
       - WG_ALLOWED_IPS=10.9.0.0/16
-      - UI_TRAFFIC_STATS=true
-      - UI_CHART_TYPE=1
+      - UI_TRAFFIC_STATS=false
+      - UI_CHART_TYPE=0
       - LANG=en
     labels:
       - traefik.enable=true
